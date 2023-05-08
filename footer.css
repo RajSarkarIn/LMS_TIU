@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+footer{
+    border-top: 5px solid red;
+    border-radius:20px 20px 0 0;
+    margin-top:6rem;
+    background-color:#03063d;
+    color:white;
+    text-align:center;
+    height:5.5rem;
+}
+ul{
+    margin-top:3px;
+    display:flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type:none;
+    margin-left:6px;
+    justify-content:space-between;
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:rgb(15, 230, 201);
+}
