@@ -39,6 +39,8 @@ $sql5="CREATE TABLE fines (
     FOREIGN KEY (user_id) REFERENCES users(id)
   );";
 mysqli_query($connection, $sql5);
+$sql6="create table admin_login(username varchar(20),password varchar(16));";
+mysqli_query($connection,$sql6);
 
 
 

@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +24,7 @@
         <label for="username">Username <i class="fa-solid fa-user"></i></label>
         <input type="text" name="username" placeholder="Enter UserName" required>
         <label for="password">Password <i class="fa-solid fa-key"></i></label>
-        <input type="password" name="Password" placeholder="Enter Password" required>
+        <input type="password" name="password" placeholder="Enter Password" required>
         <button onclick="submit.php">Login</button>
 </form>
 
