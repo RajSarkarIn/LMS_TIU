@@ -15,7 +15,7 @@ session_start();
 </head>
 <body>
     <header>
-        <img src="images/techno-indiauniversity-logo-black.png" alt="logo">
+        <img src="images/techno.webp" alt="logo">
         <p>Library management System</p>
     </header>
 <div class="adminlogin">
