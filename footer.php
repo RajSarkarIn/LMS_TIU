@@ -12,10 +12,10 @@
     <footer>
         <h4>Designed By Raj Sarkar</h4>
             <ul>
-                <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-square-github"></i> GitHub</a></li>
-                <li><a href="https://linkedin.com/in/rajsarkarin" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
-                <li><a href="https://wa.me/+917896623725" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
-                <li><a href="mailto:rajsarkarimca@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> Mail</a></li>
+                <li style="color:white;"><a href="https://github.com" target="_blank"><i class="fa-brands fa-square-github"></i> GitHub</a></li>
+                <li style="color:white;"><a href="https://linkedin.com/in/rajsarkarin" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                <li style="color:white;"><a href="https://wa.me/+917896623725" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+                <li style="color:white;"><a href="mailto:rajsarkarimca@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> Mail</a></li>
             </ul>
             <?php echo "All rights reserved 2023-" .date("Y"); ?>
         </footer>

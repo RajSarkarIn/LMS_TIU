@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(107, 10, 235, 0.603), rgba(27, 80, 226, 0.322)), url(images/bgimage.webp);
+    background-size: cover;
+
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.cont2 {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.BookIssue {
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d7adf;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.BookReturn {
+
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d7adf;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+/* All Images related */
+.BookIssue img {
+    height: 200px;
+    width: 200px;
+}
+
+.BookReturn img {
+    height: 140px;
+    width: 140px;
+}
+
+.Stock img {
+    height: 140px;
+    width: 140px;
+}
+
+.Removeuser img {
+    height: 140px;
+    width: 140px;
+}
+.AddUser img{
+    height:150px;
+    width:150px;
+}
+
+.Stock {
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d7adf;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.Removeuser {
+
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d7adf;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.AddUser {
+
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d7adf;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.ResetPass {
+
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d7adf;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
