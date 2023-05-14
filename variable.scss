@@ -4,3 +4,24 @@
         background-size: cover;
     
     }
+    @font-face {
+        font-family: text1;
+        src: url(otherresources/BrunoAceSC-Regular.ttf);
+    }
+    button{
+        margin-top:10px;
+        width: 4rem;
+        height:2rem;
+        font-style:italic;
+        transition-property: height width;
+        transition-duration: 1s;
+        font-family:text1;
+        background:linear-gradient(#121ACF,#A7D9F5);
+        border-radius: 40px;
+    }
+    button:hover{
+        width:6rem;
+        height:3rem;
+        font-size:20px;
+        
+    }

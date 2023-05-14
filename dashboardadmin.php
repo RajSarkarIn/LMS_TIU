@@ -12,6 +12,17 @@
 <body>
     <?php include "header.php";?>
     <div class="cont">
+        <div class="BookInsert">
+            <img src="images/bookissue.svg" alt="img">
+            <a href="bookinsert.php" target="_blank">Enter a Book</a>
+        </div>
+        <div class="BookDel">
+            <img src="images/book.svg" alt="book">
+            <a href="BookDelete.php" target="_blank">Book Delete</a>
+        </div>
+    </div>
+    
+    <div class="cont">
 
         <div class="BookIssue">
             <img src="images/bookissue.svg" alt="img">

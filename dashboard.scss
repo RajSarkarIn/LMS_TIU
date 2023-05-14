@@ -1,0 +1,107 @@
+@import "variable.scss";
+body{
+
+    @include bodi;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  
+  }
+  
+  .cont2 {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+@mixin books1{
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(to left, #00e7ff,#5e101091);
+    border-radius: 20px;
+    font-size: 1.5rem;
+
+}
+@mixin books2{
+    height: 12rem;
+    width: 19rem;
+    color: white;
+    border-color: aliceblue;
+    border-style: solid;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7d7adf;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+.BookInsert{
+    @include books1;
+}
+.BookDel{
+    @include books2;
+}
+.BookIssue{
+    @include books1;
+}
+.BookReturn{
+    @include books2;
+
+}
+.Stock{
+    @include books2;
+}
+.AddUser{
+    @include books2;
+}
+.Removeuser{
+    @include books2;
+}
+.ResetPass{
+    @include books2;
+}
+/*For Images*/
+.BookInsert img {
+    height: 200px;
+    width: 200px;
+}
+
+.BookDel img {
+    height: 140px;
+    width: 140px;
+}
+.BookIssue img {
+    height: 200px;
+    width: 200px;
+}
+
+.BookReturn img {
+    height: 140px;
+    width: 140px;
+}
+
+.Stock img {
+    height: 140px;
+    width: 140px;
+}
+
+.Removeuser img {
+    height: 140px;
+    width: 140px;
+}
+.AddUser img{
+    height:150px;
+    width:150px;
+}
