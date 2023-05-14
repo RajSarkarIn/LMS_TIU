@@ -15,7 +15,7 @@
 
         <div class="BookIssue">
             <img src="images/bookissue.svg" alt="img">
-            <a href="" target="_blank">Book Issue</a>
+            <a href="bookissue.php" target="_blank">Book Issue</a>
         </div>
         <div class="BookReturn">
             <img src="images/book.svg" alt="book">

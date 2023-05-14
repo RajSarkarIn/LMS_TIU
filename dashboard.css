@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #7d7adf;
+    background-image:linear-gradient(to left, #00e7ff,#5e101091);
     border-radius: 20px;
     font-size: 1.5rem;
 }
