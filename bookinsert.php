@@ -10,7 +10,7 @@
 <body>
     <?php include "header.php";?>
 <h1 style="font-family:text1; text-align:center;">Insert a book into Database</h1>
-<form  method="get" class="contbox">    
+<form  method="get" class="contbox" action="insertbookdb.php">    
     <label for="ID">Enter ID</label>
     <input type="text" name="ID" placeholder="Enter ID" required>
     <label for="title">Enter Book Name</label>
@@ -23,7 +23,7 @@
     <input type="text" name="publication_date" placeholder="Enter publication date" required>
     <label for="copies_available">Enter copies available</label>
     <input type="text" name="copies_available" placeholder="total copies available" required>
-    <button onclick="">Submit</button>
+    <button type="submit">Submit</button>
     
 </form>
 

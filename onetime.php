@@ -17,7 +17,7 @@ $sql3 = "CREATE TABLE books (
     title VARCHAR(50),
     author VARCHAR(50),
     publisher VARCHAR(50),
-    publication_date varchar(8),
+    publication_date varchar(11),
     copies_available INT(4)
   );";
 mysqli_query($connection, $sql3);
@@ -25,7 +25,7 @@ $sql4="CREATE TABLE users (
     id INT(4) PRIMARY KEY,
     name VARCHAR(50),
     address VARCHAR(100),
-    contact_details VARCHAR(50);";
+    contact_details VARCHAR(50));";
 mysqli_query($connection, $sql4);
 $sql5="CREATE TABLE fines (
     id INT(4) PRIMARY KEY,

@@ -25,7 +25,7 @@ session_start();
         <input type="text" name="username" placeholder="Enter UserName" required>
         <label for="password">Password <i class="fa-solid fa-key"></i></label>
         <input type="password" name="password" placeholder="Enter Password" required>
-        <button onclick="submit.php">Login</button>
+        <button type="submit">Login</button>
 </form>
 
 </div>
