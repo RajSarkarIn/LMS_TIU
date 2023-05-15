@@ -41,15 +41,15 @@
 
         <div class="AddUser">
             <img src="images/adduser.svg" alt="add user">
-            <a href="" target="_blank">Add User</a>
+            <a href="adduser.php" target="_blank">Add User</a>
         </div>
         <div class="Removeuser">
             <img src="images/book.svg" alt="book">
-            <a href="" target="_blank">Remove User</a>
+            <a href="removeuser.php" target="_blank">Remove User</a>
         </div>
         <div class="ResetPass">
             <i class="fa-solid fa-key" style="color:black;font-size:100px;"></i>
-            <a href="" target="_blank">Reset Password</a>
+            <a href="passwordreset.php" target="_blank">Reset Password</a>
         </div>
 
     </div>

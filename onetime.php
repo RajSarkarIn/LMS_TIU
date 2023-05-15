@@ -25,7 +25,8 @@ $sql4="CREATE TABLE users (
     id INT(4) PRIMARY KEY,
     name VARCHAR(50),
     address VARCHAR(100),
-    contact_details VARCHAR(50));";
+    contact_details VARCHAR(50),
+    password varchar(20));";
 mysqli_query($connection, $sql4);
 $sql5="CREATE TABLE fines (
     id INT(4) PRIMARY KEY,
