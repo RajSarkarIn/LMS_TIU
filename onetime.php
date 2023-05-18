@@ -39,8 +39,18 @@ $sql5="CREATE TABLE fines (
 mysqli_query($connection, $sql5);
 $sql6="create table admin_login(username varchar(20),password varchar(16));";
 mysqli_query($connection,$sql6);
-$sql7="insert into admin_login values('admin',8185);";
+$sql7="CREATE TABLE issuances (
+  issuance_id INT PRIMARY KEY AUTO_INCREMENT,
+  book_id INT,
+  user_id INT,
+  issuance_date DATE,
+  FOREIGN KEY (book_id) REFERENCES books(id),
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+";
 mysqli_query($connection,$sql7);
+$sql8="insert into admin_login values('admin',8185);";
+mysqli_query($connection,$sql8);
 
 
 

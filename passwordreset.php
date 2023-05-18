@@ -11,7 +11,7 @@
 
 <body>
     <?php include "header.php"; ?>
-    <h1 style="font-family:text1; text-align:center;">Remove User</h1>
+    <h1 style="font-family:text1; text-align:center;">Reset Password</h1>
     <form method="get" class="contbox" action="passwordresetdb.php" style="height:9.5rem;">
         <label for="ID">Enter ID</label>
         <input type="text" name="ID" placeholder="Enter ID" required>
