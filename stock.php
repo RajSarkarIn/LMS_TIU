@@ -11,14 +11,10 @@
 
 <body>
     <?php include "header.php"; ?>
-    <h1 style="font-family:text1; text-align:center;">Book Issue</h1>
-    <form action="issue_book.php" method="get" class="contbox" style="height:10rem;">
+    <h1 style="font-family:text1; text-align:center;">Book Stock</h1>
+    <form action="stockdb.php" method="get" class="contbox" style="height:10rem;">
         <label for="book_id">Book ID:</label>
-        <input type="text" name="bookid" placeholder="Enter Book Id" required>
-
-        <label for="user_id">User ID:</label>
-        <input type="text" name="userid" Placeholder="Enter User ID" required>
-
+        <input type="text" name="book_id" placeholder="Enter Book Id" required>
         <button>Submit</button>
     </form>
 

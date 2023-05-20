@@ -26,15 +26,15 @@
 
         <div class="BookIssue">
             <img src="images/bookissue.svg" alt="img">
-            <a href="bookissue.php" target="_blank">Book Issue</a>
+            <a href="bookissue.php">Book Issue</a>
         </div>
         <div class="BookReturn">
             <img src="images/book.svg" alt="book">
-            <a href="" target="_blank">Book Return</a>
+            <a href="book_returns.php">Book Return</a>
         </div>
         <div class="Stock">
             <img src="images/book.svg" alt="book">
-            <a href="" target="_blank">Stock</a>
+            <a href="stock.php">Stock</a>
         </div>
     </div>
     <div class="cont2">
@@ -49,7 +49,7 @@
         </div>
         <div class="ResetPass">
             <i class="fa-solid fa-key" style="color:black;font-size:100px;"></i>
-            <a href="passwordreset.php" target="_blank">Reset Password</a>
+            <a href="passwordreset.php" target="_blank" style="font-size:1.2rem;">Reset admin Password</a>
         </div>
 
     </div>

@@ -12,7 +12,7 @@
 <body>
     <?php include "header.php"; ?>
     <h1 style="font-family:text1; text-align:center;">Book Issue</h1>
-    <form action="issue_book.php" method="get" class="contbox" style="height:10rem;">
+    <form action="book_returnsdb.php" method="get" class="contbox" style="height:10rem;">
         <label for="book_id">Book ID:</label>
         <input type="text" name="bookid" placeholder="Enter Book Id" required>
 

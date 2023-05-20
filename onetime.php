@@ -28,15 +28,7 @@ $sql4="CREATE TABLE users (
     contact_details VARCHAR(50),
     password varchar(20));";
 mysqli_query($connection, $sql4);
-$sql5="CREATE TABLE fines (
-    id INT(4) PRIMARY KEY,
-    user_id INT(4),
-    amount DECIMAL(10,2),
-    reason VARCHAR(100),
-    date_issued varchar(8),
-    FOREIGN KEY (user_id) REFERENCES users(id)
-  );";
-mysqli_query($connection, $sql5);
+
 $sql6="create table admin_login(username varchar(20),password varchar(16));";
 mysqli_query($connection,$sql6);
 $sql7="CREATE TABLE issuances (
